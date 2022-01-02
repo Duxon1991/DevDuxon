@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, sans-serif;
+  background-image: url("Background.png");
+}
+
+header {
+  text-align: center;
+  padding: auto;
+}
+
+h1 {
+  text-align: center;
+  border: 5px solid black;
+  width: fit-content;
+}
+
+h2 {
+  text-align: center;
+}
+
+nav {
+  float: left;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+ul li {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 8px;
+  padding-right: 8px;
+  display: inline;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul li:hover {
+  background-color: gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
